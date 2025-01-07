@@ -15,7 +15,7 @@ DVALUES3 = [VALUESA, VALUESD, VALUESC]
 FLOATS1 = [1.0, 2.0, 3.0]
 FLOATS2 = [1.0, 2.0, 3.001]
 
-class TestObj:
+class MyTestObj:
     '''Something iterable than isn't Iterable.'''
     
     def __init__(self, v):
@@ -27,7 +27,7 @@ class TestObj:
     def __len__(self):
         return len(self.v)
         
-TEST_OBJ1 = TestObj(FLOATS1)
+TEST_OBJ1 = MyTestObj(FLOATS1)
 
 class TestToolsTest(unittest.TestCase):
         

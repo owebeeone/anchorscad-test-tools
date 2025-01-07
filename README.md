@@ -4,6 +4,9 @@ This package provides a test helper for comparing two iterables based on an
 expectation function. It provides more information about the difference
 between the two iterables.
 
+The module `anchorscad_lib.test_tools` is the main module in this package.
+The `anchorscad_lib` namespace is used by a number of Anchorscad packages.
+
 ## Installation
 
 ```
@@ -23,5 +26,5 @@ class TestMyThing(unittest.TestCase):
 
 This is not particularly revolutionary, but it is used by a number of Anchorscad
 tests in now different packages which required this to be extracted into a
-separate package. 
+separate package.
 
